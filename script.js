@@ -60,7 +60,7 @@ function game(){
         console.log(`Player Score = ${playerScore} Computer Score = ${computerScore}`);
     }
     // Show winner
-    winner();
+    winner(playerScore, computerScore);
     // Reset Score
     playerScore = 0;
     computerScore = 0;
